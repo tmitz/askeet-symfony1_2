@@ -1,34 +1,25 @@
-<table>
-  <tbody>
-    <tr>
-      <th>Id:</th>
-      <td><?php echo $question->getId() ?></td>
-    </tr>
-    <tr>
-      <th>User:</th>
-      <td><?php echo $question->getUserId() ?></td>
-    </tr>
-    <tr>
-      <th>Title:</th>
-      <td><?php echo $question->getTitle() ?></td>
-    </tr>
-    <tr>
-      <th>Body:</th>
-      <td><?php echo $question->getBody() ?></td>
-    </tr>
-    <tr>
-      <th>Created at:</th>
-      <td><?php echo $question->getCreatedAt() ?></td>
-    </tr>
-    <tr>
-      <th>Updated at:</th>
-      <td><?php echo $question->getUpdatedAt() ?></td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<a href="<?php echo url_for('question/edit?id='.$question->getId()) ?>">Edit</a>
-&nbsp;
-<a href="<?php echo url_for('question/index') ?>">List</a>
+<?php use_helper('Date') ?>
+ 
+<div class="interested_block">
+  <div class="interested_mark" id="mark_<?php echo $question->getId() ?>">
+    <?php echo count($question->getInterests()) ?>
+  </div>
+</div>
+ 
+<h2><?php echo $question->getTitle() ?></h2>
+ 
+<div class="question_body">
+  <?php echo $question->getBody() ?>
+</div>
+ 
+<div id="answers">
+<?php foreach ($question->getAnswers() as $answer): ?>
+  <div class="answer">
+    posted by <?php echo $answer->getUser() ?> 
+    on <?php echo format_date($answer->getCreatedAt(), 'p') ?>
+    <div>
+      <?php echo $answer->getBody() ?>
+    </div>
+  </div>
+<?php endforeach; ?>
+</div>

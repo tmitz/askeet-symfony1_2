@@ -1,0 +1,27 @@
+Answer:
+  a1_q1:
+    question_id: q1
+    user_id:     francois
+    body:        |
+      You can try to read her poetry. Chicks love that kind of things.
+
+  a2_q1:
+    question_id: q1
+    user_id:     fabien
+    body:        |
+      Don't bring her to a donuts shop. Ever. Girls don't like to be
+      seen eating with their
+
+  a3_q2:
+    question_id: q2
+    user_id:     fabien
+    body:        |
+      The answer is in the question: buy her a step, so she can 
+      get some exercise and be grateful for the weight she will
+      lose.
+
+  a4_q3:
+    question_id: q3
+    user_id:     fabien
+    body:        |
+      Build it with symfony - and people will love it.
