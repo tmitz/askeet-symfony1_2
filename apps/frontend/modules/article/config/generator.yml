@@ -1,0 +1,11 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Article
+    theme:                 default
+    non_verbose_templates: false
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          ~
+    with_propel_route:     false

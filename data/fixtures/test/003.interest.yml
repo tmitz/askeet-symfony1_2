@@ -1,0 +1,5 @@
+Interest:
+  i1: { user_id: fabien, question_id: q1 }
+  i2: { user_id: francois, question_id: q1 }
+  i3: { user_id: francois, question_id: q2 }
+  i4: { user_id: fabien, question_id: q2 }

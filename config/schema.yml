@@ -1,0 +1,37 @@
+propel:
+  _attributes:
+    defaultIdMethod: native
+    noxsd: true
+  ask_question:
+    _attributes: { phpName: Question }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true }
+    user_id: { type: integer, foreignTable: ask_user, foreignReference: id }
+    title: { type: longvarchar }
+    body: { type: longvarchar }
+    created_at: { type: timestamp }
+    updated_at: { type: timestamp }
+  ask_answer:
+    _attributes: { phpName: Answer }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true }
+    question_id: { type: integer, foreignTable: ask_question, foreignReference: id }
+    user_id: { type: integer, foreignTable: ask_user, foreignReference: id }
+    body: { type: longvarchar }
+    created_at: { type: timestamp }
+  ask_user:
+    _attributes: { phpName: User }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true }
+    nickname: { type: varchar, size: '50' }
+    first_name: { type: varchar, size: '100' }
+    last_name: { type: varchar, size: '100' }
+    created_at: { type: timestamp }
+  ask_interest:
+    _attributes: { phpName: Interest }
+    question_id: { type: integer, primaryKey: true, foreignTable: ask_question, foreignReference: id }
+    user_id: { type: integer, primaryKey: true, foreignTable: ask_user, foreignReference: id }
+    created_at: { type: timestamp }
+  ask_relevancy:
+    _attributes: { phpName: Relevancy }
+    answer_id: { type: integer, primaryKey: true, foreignTable: ask_answer, foreignReference: id }
+    user_id: { type: integer, primaryKey: true, foreignTable: ask_user, foreignReference: id }
+    score: { type: integer }
+    created_at: { type: timestamp }
