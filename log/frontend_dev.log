@@ -1,0 +1,957 @@
+Nov 03 08:24:17 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 03 08:24:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 03 08:24:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 03 08:24:17 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 03 08:24:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 03 08:24:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 03 08:24:17 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 03 08:24:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 03 08:24:17 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 03 08:24:17 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/indexSuccess.php"
+Nov 03 08:24:17 symfony [info] {sfPHPView} Decorate content with "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 03 08:24:17 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 03 08:24:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 03 08:24:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 03 08:24:17 symfony [info] {sfWebDebugLogger} Configuration 96.71 ms (9)
+Nov 03 08:24:17 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+Nov 03 08:24:17 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 15.20 ms (1)
+Nov 03 08:24:17 symfony [info] {sfWebResponse} Send content (26569 o)
+Nov 11 19:42:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:42:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:42:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:42:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:42:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 11 19:42:02 symfony [info] {myUser} Automatic user logout due to timeout
+Nov 11 19:42:02 symfony [info] {myUser} User is not authenticated
+Nov 11 19:42:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:42:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:42:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:42:02 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 11 19:42:02 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/indexSuccess.php"
+Nov 11 19:42:02 symfony [info] {sfPHPView} Decorate content with "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 11 19:42:02 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 11 19:42:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 19:42:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 19:42:02 symfony [info] {sfWebDebugLogger} Configuration 1203.70 ms (10)
+Nov 11 19:42:02 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
+Nov 11 19:42:02 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 15.87 ms (1)
+Nov 11 19:42:02 symfony [info] {sfWebResponse} Send content (27557 o)
+Nov 11 19:42:10 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:42:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:42:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:42:10 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:42:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 11 19:42:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:42:10 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:42:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:42:10 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 11 19:42:10 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:42:10 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 11 19:42:10 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 11 19:42:10 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:42:10 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:42:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 19:42:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 19:42:10 symfony [info] {sfWebDebugLogger} Configuration 430.76 ms (10)
+Nov 11 19:42:10 symfony [info] {sfWebDebugLogger} Action "question/index" 18.44 ms (1)
+Nov 11 19:42:10 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 60.60 ms (1)
+Nov 11 19:42:10 symfony [info] {sfWebResponse} Send content (26241 o)
+Nov 11 19:42:18 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:42:18 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:42:18 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:42:18 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:42:18 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 11 19:42:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:42:18 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:42:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:42:18 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 11 19:42:19 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:42:19 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 11 19:42:19 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 11 19:42:19 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:42:19 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:42:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 19:42:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 19:42:19 symfony [info] {sfWebDebugLogger} Configuration 3438.82 ms (9)
+Nov 11 19:42:19 symfony [info] {sfWebDebugLogger} Action "question/index" 18.84 ms (1)
+Nov 11 19:42:19 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 15.39 ms (1)
+Nov 11 19:42:19 symfony [info] {sfWebResponse} Send content (26272 o)
+Nov 11 19:42:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:42:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:42:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:42:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:42:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/new with parameters array (  'module' => 'question',  'action' => 'new',)
+Nov 11 19:42:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:42:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:42:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:42:22 symfony [info] {questionActions} Call "questionActions->executeNew()"
+Nov 11 19:42:22 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/newSuccess.php"
+Nov 11 19:42:22 symfony [info] {sfPartialView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/_form.php"
+Nov 11 19:42:22 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:42:22 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 11 19:42:22 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 11 19:42:22 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:42:22 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:42:22 symfony [err] {RuntimeException} Class "User" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Nov 11 19:42:26 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:42:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:42:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:42:26 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:42:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 11 19:42:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:42:26 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:42:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:42:26 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 11 19:42:26 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:42:26 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 11 19:42:26 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 11 19:42:26 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:42:26 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:42:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 19:42:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 19:42:26 symfony [info] {sfWebDebugLogger} Configuration 277.63 ms (9)
+Nov 11 19:42:26 symfony [info] {sfWebDebugLogger} Action "question/index" 18.08 ms (1)
+Nov 11 19:42:26 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 11.57 ms (1)
+Nov 11 19:42:26 symfony [info] {sfWebResponse} Send content (26241 o)
+Nov 11 19:42:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:42:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:42:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:42:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:42:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 11 19:42:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:42:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:42:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:42:28 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 11 19:42:28 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/indexSuccess.php"
+Nov 11 19:42:28 symfony [info] {sfPHPView} Decorate content with "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 11 19:42:28 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 11 19:42:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 19:42:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 19:42:28 symfony [info] {sfWebDebugLogger} Configuration 364.56 ms (10)
+Nov 11 19:42:28 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+Nov 11 19:42:28 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 14.72 ms (1)
+Nov 11 19:42:28 symfony [info] {sfWebResponse} Send content (26990 o)
+Nov 11 19:56:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:56:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:56:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:56:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:56:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 11 19:56:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:56:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:56:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:56:04 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 11 19:56:04 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:56:04 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 11 19:56:04 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 11 19:56:04 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:56:04 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:56:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 19:56:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 19:56:04 symfony [info] {sfWebDebugLogger} Configuration 288.93 ms (9)
+Nov 11 19:56:04 symfony [info] {sfWebDebugLogger} Action "question/index" 18.19 ms (1)
+Nov 11 19:56:04 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 12.64 ms (1)
+Nov 11 19:56:04 symfony [info] {sfWebResponse} Send content (25982 o)
+Nov 11 19:56:05 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:56:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:56:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:56:05 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:56:05 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 11 19:56:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:56:05 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:56:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:56:05 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 11 19:56:05 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:56:05 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 11 19:56:05 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 11 19:56:05 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:56:05 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:56:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 19:56:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 19:56:05 symfony [info] {sfWebDebugLogger} Configuration 278.58 ms (9)
+Nov 11 19:56:05 symfony [info] {sfWebDebugLogger} Action "question/index" 18.49 ms (1)
+Nov 11 19:56:05 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 11.17 ms (1)
+Nov 11 19:56:05 symfony [info] {sfWebResponse} Send content (26013 o)
+Nov 11 19:56:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:56:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:56:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:56:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:56:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 11 19:56:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:56:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:56:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:56:06 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 11 19:56:06 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:56:06 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 11 19:56:06 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 11 19:56:06 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:56:06 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:56:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 19:56:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 19:56:06 symfony [info] {sfWebDebugLogger} Configuration 256.06 ms (9)
+Nov 11 19:56:06 symfony [info] {sfWebDebugLogger} Action "question/index" 14.24 ms (1)
+Nov 11 19:56:06 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 10.75 ms (1)
+Nov 11 19:56:06 symfony [info] {sfWebResponse} Send content (26014 o)
+Nov 11 19:56:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:56:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:56:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:56:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:56:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/new with parameters array (  'module' => 'question',  'action' => 'new',)
+Nov 11 19:56:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:56:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:56:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:56:14 symfony [info] {questionActions} Call "questionActions->executeNew()"
+Nov 11 19:56:14 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/newSuccess.php"
+Nov 11 19:56:14 symfony [info] {sfPartialView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/_form.php"
+Nov 11 19:56:14 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:56:14 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 11 19:56:14 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 11 19:56:14 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:56:14 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:56:14 symfony [err] {RuntimeException} Class "User" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Nov 11 19:57:43 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:57:43 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:57:43 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:57:43 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:57:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/new with parameters array (  'module' => 'question',  'action' => 'new',)
+Nov 11 19:57:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:57:43 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:57:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:57:43 symfony [info] {questionActions} Call "questionActions->executeNew()"
+Nov 11 19:57:43 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/newSuccess.php"
+Nov 11 19:57:43 symfony [info] {sfPartialView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/_form.php"
+Nov 11 19:57:43 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:57:43 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 11 19:57:43 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 11 19:57:43 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:57:43 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:57:43 symfony [err] {RuntimeException} Class "User" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Nov 11 19:59:52 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:59:52 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:59:52 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:59:52 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:59:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/new with parameters array (  'module' => 'question',  'action' => 'new',)
+Nov 11 19:59:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:59:52 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:59:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:59:52 symfony [info] {questionActions} Call "questionActions->executeNew()"
+Nov 11 19:59:52 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/newSuccess.php"
+Nov 11 19:59:52 symfony [info] {sfPartialView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/_form.php"
+Nov 11 19:59:52 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:59:52 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 11 19:59:52 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 11 19:59:52 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:59:52 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:59:52 symfony [err] {RuntimeException} Class "User" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Nov 11 19:59:58 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:59:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:59:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:59:58 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:59:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 11 19:59:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:59:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:59:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:59:58 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 11 19:59:58 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:59:58 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 11 19:59:58 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 11 19:59:58 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:59:58 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:59:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 19:59:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 19:59:58 symfony [info] {sfWebDebugLogger} Configuration 316.17 ms (9)
+Nov 11 19:59:58 symfony [info] {sfWebDebugLogger} Action "question/index" 18.16 ms (1)
+Nov 11 19:59:58 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 13.01 ms (1)
+Nov 11 19:59:58 symfony [info] {sfWebResponse} Send content (25982 o)
+Nov 11 19:59:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 11 19:59:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 11 19:59:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 11 19:59:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 11 19:59:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 11 19:59:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 19:59:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 11 19:59:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 19:59:59 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 11 19:59:59 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 11 19:59:59 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 11 19:59:59 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 11 19:59:59 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:59:59 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 11 19:59:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 19:59:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 19:59:59 symfony [info] {sfWebDebugLogger} Configuration 255.54 ms (9)
+Nov 11 19:59:59 symfony [info] {sfWebDebugLogger} Action "question/index" 14.89 ms (1)
+Nov 11 19:59:59 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 12.80 ms (1)
+Nov 11 19:59:59 symfony [info] {sfWebResponse} Send content (26014 o)
+Nov 12 20:25:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:25:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:25:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:25:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:25:24 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 12 20:25:24 symfony [info] {myUser} Automatic user logout due to timeout
+Nov 12 20:25:24 symfony [info] {myUser} User is not authenticated
+Nov 12 20:25:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:25:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:25:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:25:24 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 12 20:25:24 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:25:24 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 12 20:25:24 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 12 20:25:24 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:25:24 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:25:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:25:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:25:24 symfony [info] {sfWebDebugLogger} Configuration 293.62 ms (9)
+Nov 12 20:25:24 symfony [info] {sfWebDebugLogger} Action "question/index" 18.77 ms (1)
+Nov 12 20:25:24 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 13.37 ms (1)
+Nov 12 20:25:24 symfony [info] {sfWebResponse} Send content (26541 o)
+Nov 12 20:25:57 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:25:57 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:25:57 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:25:57 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:25:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 12 20:25:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:25:57 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:25:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:25:57 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 12 20:25:57 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:25:57 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 12 20:25:57 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 12 20:25:57 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:25:57 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:25:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:25:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:25:57 symfony [info] {sfWebDebugLogger} Configuration 286.92 ms (9)
+Nov 12 20:25:57 symfony [info] {sfWebDebugLogger} Action "question/index" 19.24 ms (1)
+Nov 12 20:25:57 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 12.05 ms (1)
+Nov 12 20:25:57 symfony [info] {sfWebResponse} Send content (25990 o)
+Nov 12 20:25:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:25:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:25:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:25:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:25:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/new with parameters array (  'module' => 'question',  'action' => 'new',)
+Nov 12 20:25:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:25:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:25:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:25:59 symfony [info] {questionActions} Call "questionActions->executeNew()"
+Nov 12 20:25:59 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/newSuccess.php"
+Nov 12 20:25:59 symfony [info] {sfPartialView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/_form.php"
+Nov 12 20:25:59 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:25:59 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:25:59 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:25:59 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:25:59 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:25:59 symfony [err] {RuntimeException} Class "User" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Nov 12 20:29:49 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:29:49 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:29:49 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:29:49 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:29:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/new with parameters array (  'module' => 'question',  'action' => 'new',)
+Nov 12 20:29:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:29:49 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:29:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:29:49 symfony [info] {questionActions} Call "questionActions->executeNew()"
+Nov 12 20:29:49 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/newSuccess.php"
+Nov 12 20:29:49 symfony [info] {sfPartialView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/_form.php"
+Nov 12 20:29:49 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:29:49 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:29:49 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:29:49 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:29:49 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:29:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:29:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:29:49 symfony [info] {sfWebDebugLogger} Configuration 296.95 ms (9)
+Nov 12 20:29:49 symfony [info] {sfWebDebugLogger} Action "question/new" 34.69 ms (1)
+Nov 12 20:29:49 symfony [info] {sfWebDebugLogger} View "Success" for "question/new" 47.79 ms (1)
+Nov 12 20:29:49 symfony [info] {sfWebDebugLogger} Partial "question/_form" 35.33 ms (1)
+Nov 12 20:29:49 symfony [info] {sfWebResponse} Send content (38013 o)
+Nov 12 20:33:26 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:33:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:33:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:33:26 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:33:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/new with parameters array (  'module' => 'question',  'action' => 'new',)
+Nov 12 20:33:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:33:26 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:33:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:33:26 symfony [info] {questionActions} Call "questionActions->executeNew()"
+Nov 12 20:33:26 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/newSuccess.php"
+Nov 12 20:33:26 symfony [info] {sfPartialView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/_form.php"
+Nov 12 20:33:26 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:33:26 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:33:26 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:33:26 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:33:26 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:33:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:33:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:33:26 symfony [info] {sfWebDebugLogger} Configuration 301.62 ms (9)
+Nov 12 20:33:26 symfony [info] {sfWebDebugLogger} Action "question/new" 35.88 ms (1)
+Nov 12 20:33:26 symfony [info] {sfWebDebugLogger} View "Success" for "question/new" 45.72 ms (1)
+Nov 12 20:33:26 symfony [info] {sfWebDebugLogger} Partial "question/_form" 33.89 ms (1)
+Nov 12 20:33:26 symfony [info] {sfWebResponse} Send content (38013 o)
+Nov 12 20:33:44 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:33:44 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:33:44 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:33:44 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:33:44 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/question/" (/).
+Nov 12 20:33:46 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:33:46 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:33:46 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:33:46 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:33:46 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/question/" (/).
+Nov 12 20:33:55 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:33:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:33:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:33:55 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:33:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 12 20:33:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:33:55 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:33:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:33:55 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 12 20:33:55 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:33:55 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 12 20:33:55 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 12 20:33:55 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:33:55 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:33:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:33:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:33:55 symfony [info] {sfWebDebugLogger} Configuration 314.51 ms (9)
+Nov 12 20:33:55 symfony [info] {sfWebDebugLogger} Action "question/index" 15.61 ms (1)
+Nov 12 20:33:55 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 10.84 ms (1)
+Nov 12 20:33:55 symfony [info] {sfWebResponse} Send content (25982 o)
+Nov 12 20:33:56 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:33:56 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:33:56 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:33:56 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:33:56 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 12 20:33:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:33:56 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:33:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:33:56 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 12 20:33:56 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:33:56 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 12 20:33:56 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 12 20:33:56 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:33:56 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:33:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:33:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:33:56 symfony [info] {sfWebDebugLogger} Configuration 251.41 ms (9)
+Nov 12 20:33:56 symfony [info] {sfWebDebugLogger} Action "question/index" 14.94 ms (1)
+Nov 12 20:33:56 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 11.09 ms (1)
+Nov 12 20:33:56 symfony [info] {sfWebResponse} Send content (26015 o)
+Nov 12 20:34:00 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:34:00 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:34:00 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:34:00 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:34:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/new with parameters array (  'module' => 'question',  'action' => 'new',)
+Nov 12 20:34:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:34:00 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:34:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:34:00 symfony [info] {questionActions} Call "questionActions->executeNew()"
+Nov 12 20:34:00 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/newSuccess.php"
+Nov 12 20:34:00 symfony [info] {sfPartialView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/_form.php"
+Nov 12 20:34:00 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:34:00 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:34:00 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:34:00 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:34:00 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:34:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:34:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:34:00 symfony [info] {sfWebDebugLogger} Configuration 282.24 ms (9)
+Nov 12 20:34:00 symfony [info] {sfWebDebugLogger} Action "question/new" 34.84 ms (1)
+Nov 12 20:34:00 symfony [info] {sfWebDebugLogger} View "Success" for "question/new" 47.95 ms (1)
+Nov 12 20:34:00 symfony [info] {sfWebDebugLogger} Partial "question/_form" 36.14 ms (1)
+Nov 12 20:34:00 symfony [info] {sfWebResponse} Send content (37981 o)
+Nov 12 20:36:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:36:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:36:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:36:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:36:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/create with parameters array (  'module' => 'question',  'action' => 'create',)
+Nov 12 20:36:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:36:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:36:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:36:02 symfony [info] {questionActions} Call "questionActions->executeCreate()"
+Nov 12 20:36:02 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:36:02 symfony [debug] {sfPropelLogger} prepare: INSERT INTO ask_question (`ID`,`TITLE`,`BODY`,`CREATED_AT`,`UPDATED_AT`) VALUES (:p1,:p2,:p3,:p4,:p5)
+Nov 12 20:36:02 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Nov 12 20:36:02 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p2 w/ PDO type PDO::PARAM_STR
+Nov 12 20:36:02 symfony [debug] {sfPropelLogger} Binding 'first question' at position :p3 w/ PDO type PDO::PARAM_STR
+Nov 12 20:36:02 symfony [debug] {sfPropelLogger} Binding '2008-11-12 20:36:02' at position :p4 w/ PDO type PDO::PARAM_STR
+Nov 12 20:36:02 symfony [debug] {sfPropelLogger} Binding '2008-11-12 20:36:02' at position :p5 w/ PDO type PDO::PARAM_STR
+Nov 12 20:36:02 symfony [debug] {sfPropelLogger} prepare: DELETE FROM ask_interest WHERE ask_interest.QUESTION_ID=:p1
+Nov 12 20:36:02 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:03 symfony [info] {sfFrontWebController} Redirect to "http://askeet.localhost/frontend_dev.php/question/edit/id/1"
+Nov 12 20:36:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 12 20:36:03 symfony [info] {sfWebResponse} Send header "Location: http://askeet.localhost/frontend_dev.php/question/edit/id/1"
+Nov 12 20:36:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:36:03 symfony [info] {sfWebDebugLogger} Configuration 211.25 ms (8)
+Nov 12 20:36:03 symfony [info] {sfWebDebugLogger} Action "question/create" 95.04 ms (1)
+Nov 12 20:36:03 symfony [info] {sfWebResponse} Send content (22048 o)
+Nov 12 20:36:03 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:36:03 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:36:03 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:36:03 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:36:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/edit/id/1 with parameters array (  'id' => '1',  'module' => 'question',  'action' => 'edit',)
+Nov 12 20:36:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:36:03 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:36:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:36:03 symfony [info] {questionActions} Call "questionActions->executeEdit()"
+Nov 12 20:36:03 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:36:03 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question` WHERE ask_question.ID=:p1
+Nov 12 20:36:03 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:03 symfony [debug] {sfPropelLogger} prepare: SELECT ask_interest.QUESTION_ID, ask_interest.USER_ID, ask_interest.CREATED_AT FROM `ask_interest` WHERE ask_interest.QUESTION_ID=:p1
+Nov 12 20:36:03 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:03 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/editSuccess.php"
+Nov 12 20:36:03 symfony [info] {sfPartialView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/_form.php"
+Nov 12 20:36:03 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:36:03 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:36:03 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:36:03 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:36:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:36:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:36:03 symfony [info] {sfWebDebugLogger} Configuration 316.37 ms (9)
+Nov 12 20:36:03 symfony [info] {sfWebDebugLogger} Action "question/edit" 47.46 ms (1)
+Nov 12 20:36:03 symfony [info] {sfWebDebugLogger} View "Success" for "question/edit" 45.09 ms (1)
+Nov 12 20:36:03 symfony [info] {sfWebDebugLogger} Partial "question/_form" 33.54 ms (1)
+Nov 12 20:36:03 symfony [info] {sfWebResponse} Send content (38815 o)
+Nov 12 20:36:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:36:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:36:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:36:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:36:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/update/id/1 with parameters array (  'id' => '1',  'module' => 'question',  'action' => 'update',)
+Nov 12 20:36:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:36:08 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:36:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:36:08 symfony [info] {questionActions} Call "questionActions->executeUpdate()"
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question` WHERE ask_question.ID=:p1
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} prepare: SELECT ask_interest.QUESTION_ID, ask_interest.USER_ID, ask_interest.CREATED_AT FROM `ask_interest` WHERE ask_interest.QUESTION_ID=:p1
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question` WHERE ask_question.ID=:p1 LIMIT 1
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} prepare: UPDATE ask_question SET `CREATED_AT`=:p1, `UPDATED_AT`=:p2 WHERE ask_question.ID=:p3
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} Binding '2008-11-12 20:36:00' at position :p1 w/ PDO type PDO::PARAM_STR
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} Binding '2008-11-12 20:36:00' at position :p2 w/ PDO type PDO::PARAM_STR
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} Binding 1 at position :p3 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} prepare: DELETE FROM ask_interest WHERE ask_interest.QUESTION_ID=:p1
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:08 symfony [info] {sfFrontWebController} Redirect to "http://askeet.localhost/frontend_dev.php/question/edit/id/1"
+Nov 12 20:36:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Nov 12 20:36:08 symfony [info] {sfWebResponse} Send header "Location: http://askeet.localhost/frontend_dev.php/question/edit/id/1"
+Nov 12 20:36:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:36:08 symfony [info] {sfWebDebugLogger} Configuration 190.65 ms (8)
+Nov 12 20:36:08 symfony [info] {sfWebDebugLogger} Action "question/update" 52.14 ms (1)
+Nov 12 20:36:08 symfony [info] {sfWebResponse} Send content (22707 o)
+Nov 12 20:36:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:36:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:36:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:36:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:36:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/edit/id/1 with parameters array (  'id' => '1',  'module' => 'question',  'action' => 'edit',)
+Nov 12 20:36:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:36:08 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:36:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:36:08 symfony [info] {questionActions} Call "questionActions->executeEdit()"
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question` WHERE ask_question.ID=:p1
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} prepare: SELECT ask_interest.QUESTION_ID, ask_interest.USER_ID, ask_interest.CREATED_AT FROM `ask_interest` WHERE ask_interest.QUESTION_ID=:p1
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:08 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/editSuccess.php"
+Nov 12 20:36:08 symfony [info] {sfPartialView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/_form.php"
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:36:08 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:36:08 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:36:08 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:36:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:36:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:36:08 symfony [info] {sfWebDebugLogger} Configuration 312.17 ms (9)
+Nov 12 20:36:08 symfony [info] {sfWebDebugLogger} Action "question/edit" 47.98 ms (1)
+Nov 12 20:36:08 symfony [info] {sfWebDebugLogger} View "Success" for "question/edit" 45.39 ms (1)
+Nov 12 20:36:08 symfony [info] {sfWebDebugLogger} Partial "question/_form" 33.97 ms (1)
+Nov 12 20:36:08 symfony [info] {sfWebResponse} Send content (38821 o)
+Nov 12 20:36:27 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:36:27 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:36:27 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:36:27 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:36:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/edit/id/ with parameters array (  'id' => '',  'module' => 'question',  'action' => 'edit',)
+Nov 12 20:36:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:36:27 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:36:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:36:27 symfony [info] {questionActions} Call "questionActions->executeEdit()"
+Nov 12 20:36:27 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:36:27 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question` WHERE ask_question.ID=:p1
+Nov 12 20:36:27 symfony [debug] {sfPropelLogger} Binding '' at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:27 symfony [err] {sfError404Exception} Object question does not exist ().
+Nov 12 20:36:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:36:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:36:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:36:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:36:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/edit/id/ with parameters array (  'id' => '',  'module' => 'question',  'action' => 'edit',)
+Nov 12 20:36:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:36:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:36:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:36:28 symfony [info] {questionActions} Call "questionActions->executeEdit()"
+Nov 12 20:36:28 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:36:28 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question` WHERE ask_question.ID=:p1
+Nov 12 20:36:28 symfony [debug] {sfPropelLogger} Binding '' at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:36:28 symfony [err] {sfError404Exception} Object question does not exist ().
+Nov 12 20:38:51 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:38:51 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:38:51 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:38:51 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:38:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/edit/ with parameters array (  'module' => 'question',  'action' => 'edit',)
+Nov 12 20:38:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:38:51 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:38:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:38:51 symfony [info] {questionActions} Call "questionActions->executeEdit()"
+Nov 12 20:38:51 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:38:51 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question` WHERE ask_question.ID IS NULL 
+Nov 12 20:38:51 symfony [err] {sfError404Exception} Object question does not exist ().
+Nov 12 20:38:52 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:38:52 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:38:52 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:38:52 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:38:52 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/question/" (/).
+Nov 12 20:38:58 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:38:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:38:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:38:58 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:38:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 12 20:38:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:38:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:38:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:38:58 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 12 20:38:58 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:38:58 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 12 20:38:58 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 12 20:38:58 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:38:58 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:38:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:38:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:38:58 symfony [info] {sfWebDebugLogger} Configuration 324.00 ms (9)
+Nov 12 20:38:58 symfony [info] {sfWebDebugLogger} Action "question/index" 24.71 ms (1)
+Nov 12 20:38:58 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 13.43 ms (1)
+Nov 12 20:38:58 symfony [info] {sfWebResponse} Send content (26211 o)
+Nov 12 20:39:05 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:39:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:39:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:39:05 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:39:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/edit/id/1 with parameters array (  'id' => '1',  'module' => 'question',  'action' => 'edit',)
+Nov 12 20:39:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:39:05 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:39:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:39:05 symfony [info] {questionActions} Call "questionActions->executeEdit()"
+Nov 12 20:39:05 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:39:05 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question` WHERE ask_question.ID=:p1
+Nov 12 20:39:05 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:39:05 symfony [debug] {sfPropelLogger} prepare: SELECT ask_interest.QUESTION_ID, ask_interest.USER_ID, ask_interest.CREATED_AT FROM `ask_interest` WHERE ask_interest.QUESTION_ID=:p1
+Nov 12 20:39:05 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Nov 12 20:39:05 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/editSuccess.php"
+Nov 12 20:39:05 symfony [info] {sfPartialView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/_form.php"
+Nov 12 20:39:05 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:39:05 symfony [debug] {sfPropelLogger} prepare: SELECT ask_user.ID, ask_user.NICKNAME, ask_user.FIRST_NAME, ask_user.LAST_NAME, ask_user.CREATED_AT FROM `ask_user`
+Nov 12 20:39:05 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:39:05 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:39:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:39:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:39:05 symfony [info] {sfWebDebugLogger} Configuration 311.73 ms (9)
+Nov 12 20:39:05 symfony [info] {sfWebDebugLogger} Action "question/edit" 46.48 ms (1)
+Nov 12 20:39:05 symfony [info] {sfWebDebugLogger} View "Success" for "question/edit" 45.15 ms (1)
+Nov 12 20:39:05 symfony [info] {sfWebDebugLogger} Partial "question/_form" 32.61 ms (1)
+Nov 12 20:39:05 symfony [info] {sfWebResponse} Send content (38811 o)
+Nov 12 20:39:07 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:39:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:39:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:39:07 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:39:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 12 20:39:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 20:39:07 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 12 20:39:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 20:39:07 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 12 20:39:07 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 12 20:39:07 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 12 20:39:07 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 12 20:39:07 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:39:07 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 12 20:39:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 20:39:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 20:39:07 symfony [info] {sfWebDebugLogger} Configuration 268.25 ms (9)
+Nov 12 20:39:07 symfony [info] {sfWebDebugLogger} Action "question/index" 19.68 ms (1)
+Nov 12 20:39:07 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 11.25 ms (1)
+Nov 12 20:39:07 symfony [info] {sfWebResponse} Send content (26210 o)
+Nov 12 20:39:25 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 12 20:39:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 12 20:39:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 12 20:39:25 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 12 20:39:25 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/question/" (/).
+Nov 13 16:55:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 16:55:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 16:55:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 16:55:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 16:55:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 13 16:55:23 symfony [info] {myUser} Automatic user logout due to timeout
+Nov 13 16:55:23 symfony [info] {myUser} User is not authenticated
+Nov 13 16:55:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 16:55:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 16:55:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 16:55:23 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 13 16:55:23 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 13 16:55:23 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 13 16:55:23 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 13 16:55:23 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 16:55:23 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 16:55:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 13 16:55:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 13 16:55:23 symfony [info] {sfWebDebugLogger} Configuration 2209.39 ms (9)
+Nov 13 16:55:23 symfony [info] {sfWebDebugLogger} Action "question/index" 330.34 ms (1)
+Nov 13 16:55:23 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 100.36 ms (1)
+Nov 13 16:55:23 symfony [info] {sfWebResponse} Send content (26939 o)
+Nov 13 17:04:29 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 17:04:29 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 17:04:29 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 17:04:29 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 17:04:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 13 17:04:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 17:04:29 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 17:04:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 17:04:29 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 13 17:04:29 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/indexSuccess.php"
+Nov 13 17:04:29 symfony [info] {sfPHPView} Decorate content with "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 13 17:04:29 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 13 17:04:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 13 17:04:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 13 17:04:29 symfony [info] {sfWebDebugLogger} Configuration 687.26 ms (10)
+Nov 13 17:04:29 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
+Nov 13 17:04:29 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 29.53 ms (1)
+Nov 13 17:04:29 symfony [info] {sfWebResponse} Send content (26812 o)
+Nov 13 17:04:30 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 17:04:30 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 17:04:30 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 17:04:30 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 17:04:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 13 17:04:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 17:04:30 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 17:04:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 17:04:30 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 13 17:04:30 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/indexSuccess.php"
+Nov 13 17:04:30 symfony [info] {sfPHPView} Decorate content with "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 13 17:04:30 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 13 17:04:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 13 17:04:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 13 17:04:30 symfony [info] {sfWebDebugLogger} Configuration 438.24 ms (9)
+Nov 13 17:04:30 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
+Nov 13 17:04:30 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 17.14 ms (1)
+Nov 13 17:04:30 symfony [info] {sfWebResponse} Send content (26843 o)
+Nov 13 17:04:54 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 17:04:54 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 17:04:54 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 17:04:54 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 17:04:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 13 17:04:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 17:04:54 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 17:04:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 17:04:54 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 13 17:04:54 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/indexSuccess.php"
+Nov 13 17:04:54 symfony [info] {sfPHPView} Decorate content with "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 13 17:04:54 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 13 17:04:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 13 17:04:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 13 17:04:54 symfony [info] {sfWebDebugLogger} Configuration 266.83 ms (9)
+Nov 13 17:04:54 symfony [info] {sfWebDebugLogger} Action "default/index" 0.18 ms (1)
+Nov 13 17:04:54 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 12.06 ms (1)
+Nov 13 17:04:54 symfony [info] {sfWebResponse} Send content (26865 o)
+Nov 13 17:04:55 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 17:04:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 17:04:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 17:04:55 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 17:04:55 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 13 17:04:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 17:04:55 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 17:04:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 17:04:55 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 13 17:04:55 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/indexSuccess.php"
+Nov 13 17:04:55 symfony [info] {sfPHPView} Decorate content with "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 13 17:04:55 symfony [info] {sfPHPView} Render "/opt/local/lib/php/symfony/controller/default/templates/defaultLayout.php"
+Nov 13 17:04:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 13 17:04:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 13 17:04:55 symfony [info] {sfWebDebugLogger} Configuration 257.72 ms (9)
+Nov 13 17:04:55 symfony [info] {sfWebDebugLogger} Action "default/index" 0.14 ms (1)
+Nov 13 17:04:55 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 10.97 ms (1)
+Nov 13 17:04:55 symfony [info] {sfWebResponse} Send content (26865 o)
+Nov 13 17:09:45 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 17:09:45 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 17:09:45 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 17:09:45 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 17:09:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'question',  'action' => 'list',)
+Nov 13 17:09:45 symfony [info] {sfFrontWebController} Action "question/list" does not exist
+Nov 13 17:09:45 symfony [err] {sfError404Exception} Action "question/list" does not exist.
+Nov 13 17:11:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 17:11:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 17:11:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 17:11:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 17:11:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'question',  'action' => 'list',)
+Nov 13 17:11:08 symfony [info] {sfFrontWebController} Action "question/list" does not exist
+Nov 13 17:11:08 symfony [err] {sfError404Exception} Action "question/list" does not exist.
+Nov 13 17:13:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 17:13:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 17:13:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 17:13:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 17:13:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 13 17:13:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 17:13:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 17:13:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 17:13:36 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 13 17:13:36 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 13 17:13:36 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 13 17:13:36 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 13 17:13:36 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 17:13:36 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 17:13:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 13 17:13:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 13 17:13:36 symfony [info] {sfWebDebugLogger} Configuration 3326.21 ms (9)
+Nov 13 17:13:36 symfony [info] {sfWebDebugLogger} Action "question/index" 20.63 ms (1)
+Nov 13 17:13:36 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 15.79 ms (1)
+Nov 13 17:13:36 symfony [info] {sfWebResponse} Send content (26725 o)
+Nov 13 17:46:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 17:46:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 17:46:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 17:46:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 17:46:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 13 17:46:36 symfony [info] {myUser} Automatic user logout due to timeout
+Nov 13 17:46:36 symfony [info] {myUser} User is not authenticated
+Nov 13 17:46:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 17:46:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 17:46:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 17:46:36 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 13 17:46:36 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 13 17:46:36 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 13 17:46:36 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 13 17:46:36 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 17:46:36 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 17:46:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 13 17:46:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 13 17:46:36 symfony [info] {sfWebDebugLogger} Configuration 314.27 ms (9)
+Nov 13 17:46:36 symfony [info] {sfWebDebugLogger} Action "question/index" 47.80 ms (1)
+Nov 13 17:46:36 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 12.69 ms (1)
+Nov 13 17:46:36 symfony [info] {sfWebResponse} Send content (27274 o)
+Nov 13 18:12:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 18:12:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 18:12:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 18:12:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 18:12:22 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 13 18:12:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 18:12:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 18:12:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 18:12:22 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 13 18:12:22 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 13 18:12:22 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 13 18:12:22 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 13 18:12:22 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 18:12:22 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 18:12:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 13 18:12:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 13 18:12:22 symfony [info] {sfWebDebugLogger} Configuration 1561.53 ms (9)
+Nov 13 18:12:22 symfony [info] {sfWebDebugLogger} Action "question/index" 69.93 ms (1)
+Nov 13 18:12:22 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 47.00 ms (1)
+Nov 13 18:12:22 symfony [info] {sfWebResponse} Send content (26693 o)
+Nov 13 18:22:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 18:22:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 18:22:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 18:22:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 18:22:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 13 18:22:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 18:22:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 18:22:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 18:22:59 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 13 18:22:59 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 13 18:22:59 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 13 18:22:59 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 13 18:22:59 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 18:22:59 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 18:22:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 13 18:22:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 13 18:22:59 symfony [info] {sfWebDebugLogger} Configuration 286.32 ms (9)
+Nov 13 18:22:59 symfony [info] {sfWebDebugLogger} Action "question/index" 23.85 ms (1)
+Nov 13 18:22:59 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 12.30 ms (1)
+Nov 13 18:22:59 symfony [info] {sfWebResponse} Send content (26722 o)
+Nov 13 18:36:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 18:36:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 18:36:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 18:36:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 18:36:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /article with parameters array (  'module' => 'article',  'action' => 'index',)
+Nov 13 18:36:22 symfony [err] {sfInitializationException} Unable to generate a module for non-existent model "Article".
+Nov 13 18:37:54 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 18:37:54 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 18:37:54 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 18:37:54 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 18:37:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 13 18:37:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 18:37:54 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 18:37:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 18:37:54 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 13 18:37:54 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 13 18:37:54 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 13 18:37:54 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 13 18:37:54 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 18:37:54 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 18:37:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 13 18:37:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 13 18:37:54 symfony [info] {sfWebDebugLogger} Configuration 3370.10 ms (9)
+Nov 13 18:37:54 symfony [info] {sfWebDebugLogger} Action "question/index" 19.14 ms (1)
+Nov 13 18:37:54 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 22.35 ms (1)
+Nov 13 18:37:54 symfony [info] {sfWebResponse} Send content (26495 o)
+Nov 13 18:38:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 18:38:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 18:38:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 18:38:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 18:38:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /question with parameters array (  'module' => 'question',  'action' => 'index',)
+Nov 13 18:38:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 18:38:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 18:38:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 18:38:06 symfony [info] {questionActions} Call "questionActions->executeIndex()"
+Nov 13 18:38:06 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 13 18:38:06 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question`
+Nov 13 18:38:06 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/modules/question/templates/indexSuccess.php"
+Nov 13 18:38:06 symfony [info] {sfPHPView} Decorate content with "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 18:38:06 symfony [info] {sfPHPView} Render "/Users/mitsumunetomohiro/askeet/apps/frontend/templates/layout.php"
+Nov 13 18:38:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 13 18:38:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 13 18:38:06 symfony [info] {sfWebDebugLogger} Configuration 296.42 ms (9)
+Nov 13 18:38:06 symfony [info] {sfWebDebugLogger} Action "question/index" 15.69 ms (1)
+Nov 13 18:38:06 symfony [info] {sfWebDebugLogger} View "Success" for "question/index" 11.11 ms (1)
+Nov 13 18:38:06 symfony [info] {sfWebResponse} Send content (26507 o)
+Nov 13 18:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 18:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 18:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 18:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 18:38:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/show with parameters array (  'module' => 'question',  'action' => 'show',)
+Nov 13 18:38:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 18:38:11 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 18:38:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 18:38:11 symfony [info] {questionActions} Call "questionActions->executeShow()"
+Nov 13 18:38:11 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 13 18:38:11 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question` WHERE ask_question.ID IS NULL 
+Nov 13 18:38:11 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "question/show".
+Nov 13 18:40:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 18:40:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 18:40:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 18:40:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 18:40:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/show with parameters array (  'module' => 'question',  'action' => 'show',)
+Nov 13 18:40:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 18:40:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 18:40:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 18:40:02 symfony [info] {questionActions} Call "questionActions->executeShow()"
+Nov 13 18:40:02 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 13 18:40:02 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question` WHERE ask_question.ID IS NULL 
+Nov 13 18:40:02 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "question/show".
+Nov 13 19:12:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Nov 13 19:12:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_symfony" (/symfony/:action/*)
+Nov 13 19:12:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Nov 13 19:12:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Nov 13 19:12:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /question/show with parameters array (  'module' => 'question',  'action' => 'show',)
+Nov 13 19:12:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 13 19:12:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Nov 13 19:12:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 13 19:12:39 symfony [info] {questionActions} Call "questionActions->executeShow()"
+Nov 13 19:12:39 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Nov 13 19:12:39 symfony [debug] {sfPropelLogger} prepare: SELECT ask_question.ID, ask_question.USER_ID, ask_question.TITLE, ask_question.BODY, ask_question.CREATED_AT, ask_question.UPDATED_AT FROM `ask_question` WHERE ask_question.ID IS NULL 
+Nov 13 19:12:39 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "question/show".
