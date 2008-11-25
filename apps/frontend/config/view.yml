@@ -3,7 +3,7 @@ default:
     content-type: text/html
 
   metas:
-    #title:        symfony project
+    title:        askeet 1.2
     #description:  symfony project
     #keywords:     symfony, project
     #language:     en
