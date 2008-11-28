@@ -8,6 +8,7 @@ propel:
     user_id: { type: integer, foreignTable: ask_user, foreignReference: id }
     title: { type: longvarchar }
     body: { type: longvarchar }
+    interested_users: { type: integer, default: 0 }
     created_at: { type: timestamp }
     updated_at: { type: timestamp }
   ask_answer:
@@ -16,6 +17,8 @@ propel:
     question_id: { type: integer, foreignTable: ask_question, foreignReference: id }
     user_id: { type: integer, foreignTable: ask_user, foreignReference: id }
     body: { type: longvarchar }
+    relevancy_up: { type: integer, default: 0 }
+    relevancy_down: { type: integer, default: 0 }
     created_at: { type: timestamp }
   ask_user:
     _attributes: { phpName: User }

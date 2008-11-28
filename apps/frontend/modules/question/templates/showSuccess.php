@@ -1,9 +1,7 @@
 <?php use_helper('Date') ?>
  
 <div class="interested_block">
-  <div class="interested_mark" id="mark_<?php echo $question->getId() ?>">
-    <?php echo count($question->getInterests()) ?>
-  </div>
+  <?php include_partial("interested_user", array("question" => $question)) ?>
 </div>
  
 <h2><?php echo $question->getTitle() ?></h2>

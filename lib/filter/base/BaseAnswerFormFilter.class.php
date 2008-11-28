@@ -7,7 +7,7 @@ require_once(sfConfig::get('sf_lib_dir').'/filter/base/BaseFormFilterPropel.clas
  *
  * @package    symfony
  * @subpackage filter
- * @author     Tomohiro MITSUMUNE<tmitsumune@gmail.com>
+ * @author     Tomohiro MITSUMUNE <tmitsumune@gmail.com>
  * @version    SVN: $Id: sfPropelFormFilterGeneratedTemplate.php 11675 2008-09-19 15:21:38Z fabien $
  */
 class BaseAnswerFormFilter extends BaseFormFilterPropel
@@ -18,6 +18,8 @@ class BaseAnswerFormFilter extends BaseFormFilterPropel
       'question_id'    => new sfWidgetFormPropelChoice(array('model' => 'Question', 'add_empty' => true)),
       'user_id'        => new sfWidgetFormPropelChoice(array('model' => 'User', 'add_empty' => true)),
       'body'           => new sfWidgetFormFilterInput(),
+      'relevancy_up'   => new sfWidgetFormFilterInput(),
+      'relevancy_down' => new sfWidgetFormFilterInput(),
       'created_at'     => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => true)),
       'relevancy_list' => new sfWidgetFormPropelChoice(array('model' => 'User', 'add_empty' => true)),
     ));
@@ -26,6 +28,8 @@ class BaseAnswerFormFilter extends BaseFormFilterPropel
       'question_id'    => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Question', 'column' => 'id')),
       'user_id'        => new sfValidatorPropelChoice(array('required' => false, 'model' => 'User', 'column' => 'id')),
       'body'           => new sfValidatorPass(array('required' => false)),
+      'relevancy_up'   => new sfValidatorInteger(array('required' => false)),
+      'relevancy_down' => new sfValidatorInteger(array('required' => false)),
       'created_at'     => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDate(array('required' => false)))),
       'relevancy_list' => new sfValidatorPropelChoice(array('model' => 'User', 'required' => false)),
     ));
@@ -74,6 +78,8 @@ class BaseAnswerFormFilter extends BaseFormFilterPropel
       'question_id'    => 'ForeignKey',
       'user_id'        => 'ForeignKey',
       'body'           => 'Text',
+      'relevancy_up'   => 'Text',
+      'relevancy_down' => 'Text',
       'created_at'     => 'Date',
       'relevancy_list' => 'ManyKey',
     );

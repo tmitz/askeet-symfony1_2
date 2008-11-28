@@ -7,7 +7,7 @@ require_once(sfConfig::get('sf_lib_dir').'/filter/base/BaseFormFilterPropel.clas
  *
  * @package    symfony
  * @subpackage filter
- * @author     Tomohiro MITSUMUNE<tmitsumune@gmail.com>
+ * @author     Tomohiro MITSUMUNE <tmitsumune@gmail.com>
  * @version    SVN: $Id: sfPropelFormFilterGeneratedTemplate.php 11675 2008-09-19 15:21:38Z fabien $
  */
 class BaseInterestFormFilter extends BaseFormFilterPropel

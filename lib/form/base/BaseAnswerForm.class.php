@@ -5,7 +5,7 @@
  *
  * @package    symfony
  * @subpackage form
- * @author     Tomohiro MITSUMUNE<tmitsumune@gmail.com>
+ * @author     Tomohiro MITSUMUNE <tmitsumune@gmail.com>
  * @version    SVN: $Id: sfPropelFormGeneratedTemplate.php 12815 2008-11-09 10:43:58Z fabien $
  */
 class BaseAnswerForm extends BaseFormPropel
@@ -17,6 +17,8 @@ class BaseAnswerForm extends BaseFormPropel
       'question_id'    => new sfWidgetFormPropelChoice(array('model' => 'Question', 'add_empty' => true)),
       'user_id'        => new sfWidgetFormPropelChoice(array('model' => 'User', 'add_empty' => true)),
       'body'           => new sfWidgetFormTextarea(),
+      'relevancy_up'   => new sfWidgetFormInput(),
+      'relevancy_down' => new sfWidgetFormInput(),
       'created_at'     => new sfWidgetFormDateTime(),
       'relevancy_list' => new sfWidgetFormPropelChoiceMany(array('model' => 'User')),
     ));
@@ -26,6 +28,8 @@ class BaseAnswerForm extends BaseFormPropel
       'question_id'    => new sfValidatorPropelChoice(array('model' => 'Question', 'column' => 'id', 'required' => false)),
       'user_id'        => new sfValidatorPropelChoice(array('model' => 'User', 'column' => 'id', 'required' => false)),
       'body'           => new sfValidatorString(array('required' => false)),
+      'relevancy_up'   => new sfValidatorInteger(array('required' => false)),
+      'relevancy_down' => new sfValidatorInteger(array('required' => false)),
       'created_at'     => new sfValidatorDateTime(array('required' => false)),
       'relevancy_list' => new sfValidatorPropelChoiceMany(array('model' => 'User', 'required' => false)),
     ));

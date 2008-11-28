@@ -5,7 +5,7 @@
  *
  * @package    symfony
  * @subpackage form
- * @author     Tomohiro MITSUMUNE<tmitsumune@gmail.com>
+ * @author     Tomohiro MITSUMUNE <tmitsumune@gmail.com>
  * @version    SVN: $Id: sfPropelFormGeneratedTemplate.php 12815 2008-11-09 10:43:58Z fabien $
  */
 class BaseRelevancyForm extends BaseFormPropel

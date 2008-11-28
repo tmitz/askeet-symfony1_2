@@ -5,9 +5,7 @@
 <?php foreach ($question_list as $question): ?>
 <div class="question">
     <div class="interested_block">
-        <div class="interested_mark" id="mark_<?php echo $question->getId() ?>">
-            <?php echo count($question->getInterests()) ?> 
-        </div>
+        <?php include_partial("interested_user", array("question" => $question)) ?>
     </div>
 
     <h2><?php echo link_to($question->getTitle(), "question/show?id=".$question->getId()) ?></h2>
