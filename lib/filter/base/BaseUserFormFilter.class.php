@@ -8,7 +8,7 @@ require_once(sfConfig::get('sf_lib_dir').'/filter/base/BaseFormFilterPropel.clas
  * @package    symfony
  * @subpackage filter
  * @author     Tomohiro MITSUMUNE <tmitsumune@gmail.com>
- * @version    SVN: $Id: sfPropelFormFilterGeneratedTemplate.php 11675 2008-09-19 15:21:38Z fabien $
+ * @version    SVN: $Id: sfPropelFormFilterGeneratedTemplate.php 13459 2008-11-28 14:48:12Z fabien $
  */
 class BaseUserFormFilter extends BaseFormFilterPropel
 {
@@ -97,7 +97,7 @@ class BaseUserFormFilter extends BaseFormFilterPropel
   public function getFields()
   {
     return array(
-      'id'             => 'Text',
+      'id'             => 'Number',
       'nickname'       => 'Text',
       'first_name'     => 'Text',
       'last_name'      => 'Text',

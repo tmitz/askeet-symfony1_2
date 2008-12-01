@@ -1,0 +1,10 @@
+Relevancy:
+  rel1:
+    answer_id: a1_q1
+    user_id:   fabien
+    score:     1
+  rel2:
+    answer_id: a1_q1
+    user_id:   francois
+    score:     -1
+

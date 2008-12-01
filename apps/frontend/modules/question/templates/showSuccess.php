@@ -13,6 +13,7 @@
 <div id="answers">
 <?php foreach ($question->getAnswers() as $answer): ?>
   <div class="answer">
+  <?php echo $answer->getRelevancyUpPercent() ?>% UP <?php echo $answer->getRelevancyDownPercent() ?>% DOWN
     posted by <?php echo $answer->getUser() ?> 
     on <?php echo format_date($answer->getCreatedAt(), 'p') ?>
     <div>

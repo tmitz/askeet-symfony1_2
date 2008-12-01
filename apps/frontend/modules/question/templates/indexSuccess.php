@@ -8,7 +8,7 @@
         <?php include_partial("interested_user", array("question" => $question)) ?>
     </div>
 
-    <h2><?php echo link_to($question->getTitle(), "question/show?id=".$question->getId()) ?></h2>
+    <h2><?php echo link_to($question->getTitle(), "question/show?stripped_title=".$question->getStrippedTitle()) ?></h2>
 
     <div class="question_body">
         <?php echo truncate_text($question->getBody(), 200) ?>

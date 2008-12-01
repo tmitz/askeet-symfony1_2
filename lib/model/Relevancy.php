@@ -2,7 +2,7 @@
 
 class Relevancy extends BaseRelevancy
 {
-    public function save()
+    public function save(PropelPDO $con = null)
     {
         $con = Propel::getConnection();
         try {

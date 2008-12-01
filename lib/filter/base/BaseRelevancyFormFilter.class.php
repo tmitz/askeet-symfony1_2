@@ -8,7 +8,7 @@ require_once(sfConfig::get('sf_lib_dir').'/filter/base/BaseFormFilterPropel.clas
  * @package    symfony
  * @subpackage filter
  * @author     Tomohiro MITSUMUNE <tmitsumune@gmail.com>
- * @version    SVN: $Id: sfPropelFormFilterGeneratedTemplate.php 11675 2008-09-19 15:21:38Z fabien $
+ * @version    SVN: $Id: sfPropelFormFilterGeneratedTemplate.php 13459 2008-11-28 14:48:12Z fabien $
  */
 class BaseRelevancyFormFilter extends BaseFormFilterPropel
 {
@@ -20,7 +20,7 @@ class BaseRelevancyFormFilter extends BaseFormFilterPropel
     ));
 
     $this->setValidators(array(
-      'score'      => new sfValidatorInteger(array('required' => false)),
+      'score'      => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'created_at' => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDate(array('required' => false)))),
     ));
 
@@ -41,7 +41,7 @@ class BaseRelevancyFormFilter extends BaseFormFilterPropel
     return array(
       'answer_id'  => 'ForeignKey',
       'user_id'    => 'ForeignKey',
-      'score'      => 'Text',
+      'score'      => 'Number',
       'created_at' => 'Date',
     );
   }

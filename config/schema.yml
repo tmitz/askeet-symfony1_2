@@ -9,6 +9,9 @@ propel:
     title: { type: longvarchar }
     body: { type: longvarchar }
     interested_users: { type: integer, default: 0 }
+    stripped_title: { type: varchar, size: '255' }
+    _uniques:
+      unique_stripepd_title: [stripped_title]
     created_at: { type: timestamp }
     updated_at: { type: timestamp }
   ask_answer:

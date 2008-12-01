@@ -8,7 +8,7 @@ require_once(sfConfig::get('sf_lib_dir').'/filter/base/BaseFormFilterPropel.clas
  * @package    symfony
  * @subpackage filter
  * @author     Tomohiro MITSUMUNE <tmitsumune@gmail.com>
- * @version    SVN: $Id: sfPropelFormFilterGeneratedTemplate.php 11675 2008-09-19 15:21:38Z fabien $
+ * @version    SVN: $Id: sfPropelFormFilterGeneratedTemplate.php 13459 2008-11-28 14:48:12Z fabien $
  */
 class BaseAnswerFormFilter extends BaseFormFilterPropel
 {
@@ -28,8 +28,8 @@ class BaseAnswerFormFilter extends BaseFormFilterPropel
       'question_id'    => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Question', 'column' => 'id')),
       'user_id'        => new sfValidatorPropelChoice(array('required' => false, 'model' => 'User', 'column' => 'id')),
       'body'           => new sfValidatorPass(array('required' => false)),
-      'relevancy_up'   => new sfValidatorInteger(array('required' => false)),
-      'relevancy_down' => new sfValidatorInteger(array('required' => false)),
+      'relevancy_up'   => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'relevancy_down' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'created_at'     => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDate(array('required' => false)))),
       'relevancy_list' => new sfValidatorPropelChoice(array('model' => 'User', 'required' => false)),
     ));
@@ -74,12 +74,12 @@ class BaseAnswerFormFilter extends BaseFormFilterPropel
   public function getFields()
   {
     return array(
-      'id'             => 'Text',
+      'id'             => 'Number',
       'question_id'    => 'ForeignKey',
       'user_id'        => 'ForeignKey',
       'body'           => 'Text',
-      'relevancy_up'   => 'Text',
-      'relevancy_down' => 'Text',
+      'relevancy_up'   => 'Number',
+      'relevancy_down' => 'Number',
       'created_at'     => 'Date',
       'relevancy_list' => 'ManyKey',
     );

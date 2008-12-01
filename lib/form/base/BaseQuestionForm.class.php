@@ -18,6 +18,7 @@ class BaseQuestionForm extends BaseFormPropel
       'title'            => new sfWidgetFormTextarea(),
       'body'             => new sfWidgetFormTextarea(),
       'interested_users' => new sfWidgetFormInput(),
+      'stripped_title'   => new sfWidgetFormInput(),
       'created_at'       => new sfWidgetFormDateTime(),
       'updated_at'       => new sfWidgetFormDateTime(),
       'interest_list'    => new sfWidgetFormPropelChoiceMany(array('model' => 'User')),
@@ -29,10 +30,15 @@ class BaseQuestionForm extends BaseFormPropel
       'title'            => new sfValidatorString(array('required' => false)),
       'body'             => new sfValidatorString(array('required' => false)),
       'interested_users' => new sfValidatorInteger(array('required' => false)),
+      'stripped_title'   => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'created_at'       => new sfValidatorDateTime(array('required' => false)),
       'updated_at'       => new sfValidatorDateTime(array('required' => false)),
       'interest_list'    => new sfValidatorPropelChoiceMany(array('model' => 'User', 'required' => false)),
     ));
+
+    $this->validatorSchema->setPostValidator(
+      new sfValidatorPropelUnique(array('model' => 'Question', 'column' => array('stripped_title')))
+    );
 
     $this->widgetSchema->setNameFormat('question[%s]');
 
